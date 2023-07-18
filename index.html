@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,50 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="left">Yassar's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Projects</a></li>
+                    <li> <a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first_section">
+            <div class="left_section">
+                Hi, My name is <span class="purple">
+                    Yassar
+                </span>
+                <div>
+                    and I am a passionate
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="right_section">
+                <img src="images/Programming-amico.png" alt="">
+            </div>
+        </section>
+        <section class="second_section">
+            <h1>Past Experience</h1>
+        </section>
+    </main>
+    <!-- animation -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; Web designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </body>
+
 </html>
