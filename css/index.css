@@ -17,7 +17,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background: rgb(00, 00, 50);
+    background: rgb(1, 1, 68);
 }
 
 nav ul {
@@ -34,9 +34,10 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
-nav ul li a:hover{
- color: rgb(161, 161, 231);
- 
+
+nav ul li a:hover {
+    color: rgb(161, 161, 231);
+
 }
 
 .left {
@@ -47,7 +48,7 @@ nav ul li a:hover{
 .first_section {
     display: flex;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 80px 0;
     align-items: center;
 }
 
@@ -56,9 +57,20 @@ nav ul li a:hover{
 }
 
 .left_section {
-    /* background: red; */
     font-size: 2.5rem;
-    /* margin: 50px 0; */
+}
+.left_section .buttons{
+    padding: 50px 0;
+}
+
+.left_section .btn {
+    padding: 12px;
+    background: rgb(00, 00, 33);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .right_section img {
@@ -66,9 +78,65 @@ nav ul li a:hover{
     width: 92%;
 }
 
-.purple {
+.text-purple {
     color: rgb(170, 107, 228);
 }
-#element{
+
+/* intro heading */
+#element {
     color: rgb(170, 107, 228);
+}
+
+/* work experience heading */
+.text-grey {
+    color: gray;
+}
+
+main hr {
+    border: 0;
+    background: rgb(170, 107, 228);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+/* .second_section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second_section h1 {
+    font-size: 1.8rem;
+}
+
+.second_section .box {
+    background: white;
+    width: 80vw;
+    height: 1.9px;
+    margin: 56px 0;
+}
+
+.second_section .vertical {
+    height: 93px;
+    width: 1px;
+    background: white;
+} */
+
+footer {
+    background: rgb(10, 10, 27);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 125px;
+    justify-content: space-evenly;
+}
+
+/* .footer ul {
+    list-style: none;
+} */
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
 }
