@@ -59,8 +59,20 @@ nav ul li a:hover {
 .left_section {
     font-size: 2.5rem;
 }
-.left_section .buttons{
+
+.left_section .buttons {
     padding: 50px 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 50px 0;
+    color: white;
+}
+
+.buttons a:visited {
+    /* color: rgb(0, 0, 0); */
+    text-decoration: none;
 }
 
 .left_section .btn {
